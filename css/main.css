@@ -25,6 +25,7 @@ section{
 .logo{
     width: 250px;
     height: 250px;
+    margin-top: 90px;
 }
 .main-title{
     text-transform: uppercase;
@@ -51,39 +52,40 @@ section{
     line-height: 1.5;
     letter-spacing: 3px;
 }
-.select-choosecountry select{
-    width: 100%;
-    background: white;
-    background: transparent;
-    height: 100%;
-    padding-left: 10px;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-size: 30px; 
-    -webkit-appearance: none;
-    color: black;
-
-}
 .select-choosecountry{
-    background-color: white;
-    background-image: url(../img/down_arrow_select.png);
-    background-repeat: no-repeat;
-    background-position: 98%;
+    background: white url(../img/down_arrow_select.png) no-repeat 98%;
     width: 570px;
     height: 60px;
-    overflow: hidden;
-    position: relative;
+    display: block;
     margin: 0 auto;
     margin-top: 105px;
     border: 1px;
     border-radius: 5px;
-
+    padding-left: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 30px; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+}
+.select-choosecountry:after{
+    content:'yhtyhty';
+    border-right: 1px solid grey;
+    position: absolute;
+    right: 50px;
+    top:0;
+    width: 1px;
+    height: 100%;
+    color: red;
 }
 .getconsult{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
     width: 570px;
     height: 90px;
+    display: block;
     border: 0px;
+    outline: 0px;
     background: #00aeef;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -96,4 +98,16 @@ section{
     -webkit-box-shadow: 0px 10px #0078a4;
     -moz-box-shadow:    0px 10px #0078a4;
     box-shadow:         0px 10px #0078a4;
+}
+.getconsult:hover{
+    background: #4ac2ef;
+    cursor: pointer;
+}
+.getconsult:active {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0px 10px rgba(0,0,0,0);
+    -moz-box-shadow:    0px 10px rgba(0,0,0,0);
+    box-shadow:         0px 10px rgba(0,0,0,0);
+    
 }
