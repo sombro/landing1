@@ -29,7 +29,7 @@ section{
 .main-title{
     text-transform: uppercase;
     color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 42px;
     max-width: 830px;
     display: block;
@@ -41,7 +41,7 @@ section{
 .main-subtitle{
     text-transform: uppercase;
     color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 300;
     font-size: 24px;
     max-width: 830px;
@@ -51,7 +51,49 @@ section{
     line-height: 1.5;
     letter-spacing: 3px;
 }
-.country{
+.select-choosecountry select{
+    width: 100%;
+    background: white;
+    background: transparent;
+    height: 100%;
+    padding-left: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 30px; 
+    -webkit-appearance: none;
+    color: black;
+
+}
+.select-choosecountry{
+    background-color: white;
+    background-image: url(../img/down_arrow_select.png);
+    background-repeat: no-repeat;
+    background-position: 98%;
     width: 570px;
     height: 60px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 105px;
+    border: 1px;
+    border-radius: 5px;
+
+}
+.getconsult{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 570px;
+    height: 90px;
+    border: 0px;
+    background: #00aeef;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: white;
+    font-size: 24px;
+    text-shadow: 0px -1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 10px #0078a4;
+    -moz-box-shadow:    0px 10px #0078a4;
+    box-shadow:         0px 10px #0078a4;
 }
